@@ -2,8 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "local": "nodemon index.mjs",
+    "dev": "yarn run compile && node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "shx rm -rf build/ && tsc"
   },
   "author": "",
   "license": "ISC",
