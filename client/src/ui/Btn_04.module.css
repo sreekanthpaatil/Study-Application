@@ -1,0 +1,42 @@
+@property --myColor1_3 {
+    syntax: "<color>";
+    initial-value: #ff6969;
+    inherits: false;
+  }
+  
+  @property --myColor2_3 {
+    syntax: "<color>";
+    initial-value: #ff6969;
+    inherits: false;
+  }
+  
+  @property --myColor3_3 {
+    syntax: "<color>";
+    initial-value: #ff6969;
+    inherits: false;
+  }
+  
+  .topic_btn_04 {
+    margin: 0.2rem 0.3rem;
+    padding: 0.3rem 0.6rem;
+    background-image: linear-gradient(
+      45deg,
+      var(--myColor1_3),
+      var(--myColor2_3),
+      var(--myColor3_3)
+    );
+    -webkit-text-fill-color: #fff;
+    font-family: inherit;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: --myColor1_3 0.4s, --myColor2_3 0.4s, --myColor3_3 0.4s;
+  }
+  
+  .topic_btn_04:hover {
+    --myColor1_3: rgba(255, 0, 0, 1);
+    --myColor2_3: rgba(255, 0, 180, 1);
+    --myColor3_3: rgba(0, 100, 200, 1);
+  }
