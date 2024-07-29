@@ -1,0 +1,131 @@
+/* css for login page */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+    background: rgb(199, 225, 245);
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .error {
+    color: red;
+    font-size: small;
+    padding-left: 10px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+  }
+  .text {
+    color: rgb(12, 6, 120);
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .underline {
+    width: 61px;
+    height: 6px;
+    background-color: rgb(12, 6, 120);
+    border-radius: 9px;
+  }
+  
+  .inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 440px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+  }
+  
+  .input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(114, 112, 112, 0.824);
+    font-size: 15px;
+  }
+  .forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: rgb(12, 6, 120);
+    font-size: 18px;
+    position: relative;
+    top: -40px;
+  }
+  .forgot-password span {
+    color: rgb(12, 6, 120);
+    cursor: pointer;
+  }
+  .submit-container {
+    display: flex;
+    gap: 30px;
+    /* margin: 60px auto; */
+  }
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 49px;
+    color: #fff;
+    background: #016abc;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: ponter;
+  }
+  .submit:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Add a shadow */
+    transform: translateY(-2px); /* Slightly move up */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+  }
+  .gray {
+    background-color: #83b1d7;
+    color: #fff;
+  }
+  .submit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 49px;
+    color: #fff;
+    background: #016abc;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: ponter;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .submit-form:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); /* Add a shadow */
+    transform: translateY(-2px); /* Slightly move up */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+  }
+  
+  #sub {
+    position: relative;
+    top: -40px;
+  }
+  #res {
+    position: relative;
+    top: -60px;
+  }

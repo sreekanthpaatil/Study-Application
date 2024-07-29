@@ -1,7 +1,8 @@
 {
-  "name": "client",
-  "version": "1.0.0",
-  "main": "index.js",
+ "name": "let_landing_page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
   "dev": "vite",
     "build": "vite build",
