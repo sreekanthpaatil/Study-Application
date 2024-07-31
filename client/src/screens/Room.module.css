@@ -1,0 +1,65 @@
+.room_page {
+    padding: 3rem 4.5rem;
+    background-color: #bbb;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .room_container {
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .room_header {
+    font-size: 3rem;
+    margin: 0.8rem 0;
+  }
+  
+  .room_message {
+    font-size: 1.8rem;
+    margin: 0.8rem;
+  }
+  
+  .btn {
+    min-width: 30%;
+    margin: 0 1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: coral;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+  
+  .video_box {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .video_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .video_header {
+    font-size: 1.2rem;
+  }
+  
+  .player {
+  }

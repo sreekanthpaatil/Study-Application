@@ -1,0 +1,60 @@
+.call_review_page {
+    padding: 3rem 4.5rem;
+    background-color: #bbb;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .call_review_container {
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .call_review_header {
+    font-size: 2rem;
+    margin: 0.8rem 0;
+  }
+  
+  .call_review_para {
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    padding-top: 2rem;
+  }
+  
+  .call_review_ratings {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+  
+  .redirect_home_btn_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .redirect_home_btn {
+    width: 20%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: coral;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .redirect_home_btn:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+  
+  .redirect_link_call {
+    color: #fff;
+    text-decoration: none;
+  }

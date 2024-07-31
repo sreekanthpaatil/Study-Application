@@ -1,0 +1,75 @@
+.lobby_page {
+    margin-top: 6rem;
+    min-height: calc(100vh-70px);
+    padding: 2.2rem 4.5rem 2.7rem;
+    background-color: inherit;
+    text-align: center;
+    overflow-y: hidden;
+  }
+  
+  .lobby_container {
+    padding: 1rem 2rem;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .lobby_header {
+    font-size: 3rem;
+  }
+  
+  .lobby_form {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .form_section {
+    text-align: left;
+    padding: 1rem 1.8rem;
+  }
+  
+  .form_label {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+  }
+  
+  .form_input {
+    display: block;
+    padding: 0.8rem 1rem;
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .form_input:focus {
+    border: 2px solid coral;
+  }
+  
+  .form_submit_btn {
+    width: 20%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: coral;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form_submit_btn:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+  
+  .role_options {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+  
+  .role_div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+  }
