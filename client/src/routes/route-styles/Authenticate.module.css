@@ -1,0 +1,49 @@
+.authentication_section {
+    max-height: calc(100% - 4rem);
+    background-color: #edf6f6;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .authenticate_container {
+    background-color: #c7e1f5;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 25px;
+  }
+  
+  .authenticate_btn_container,
+  .authenticate_actions_btn_container {
+    padding: 1.5rem;
+  }
+  
+  .authenticate_mode_btn,
+  .authenticate_btn {
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 1rem;
+    background-color: #83b1d7;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1.3rem;
+    min-width: 25%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px #999;
+  }
+  
+  .authenticate_mode_btn:hover,
+  .authenticate_btn:hover {
+    background-color: #0c0678;
+    cursor: pointer;
+  }
+  
+  .authenticate_mode_btn:active,
+  .authenticate_btn:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+  
+  .authenticate_mode_selected {
+    background-color: #016abc;
+  }
