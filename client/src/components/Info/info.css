@@ -1,0 +1,101 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .mainCard {
+    width: 90%;
+    height: 600px;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.12);
+  }
+  .image {
+    width: 700px;
+    border-radius: 20px;
+    height: 100%;
+  }
+  .choice {
+    padding: 40px;
+  }
+  .heading {
+    text-align: left;
+    font-weight: 540;
+    font-size: 36px;
+    color: rgb(87, 87, 87);
+  }
+  .cards {
+    display: flex;
+    padding-top: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .card {
+    background-color: rgb(242, 242, 242);
+    width: fit-content;
+    padding: 12px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.12);
+  }
+  .card:hover {
+    cursor: pointer;
+    border: 2px solid rgb(179, 179, 179);
+  }
+  .cardSelected {
+    background-color: rgb(242, 242, 242);
+    width: fit-content;
+    padding: 12px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.12);
+    border: 3px solid rgb(114, 203, 219);
+    cursor: pointer;
+  }
+  
+  .teachCards {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+  .teachCard {
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    width: fit-content;
+    padding: 14px;
+    width: 160px;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.12);
+  }
+  .teachCard:hover {
+    cursor: pointer;
+    border: 2px solid rgb(179, 179, 179);
+  }
+  .proficiency {
+    border: none;
+    background-color: inherit;
+    outline: none;
+    font-size: 16px;
+    color: grey;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  .nextButton {
+    background-color: rgb(114, 203, 219);
+    cursor: pointer;
+    padding: 16px 30px;
+    border-radius: 8px;
+  }
+  
+  .home_link_text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+  }
