@@ -1,0 +1,144 @@
+.hero_section {
+    /* background-image: linear-gradient(to right,rgb(83, 83, 231),lightblue); */
+    scroll-behavior: smooth;
+    height: calc(100vh-4rem);
+    overflow-x: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    overflow: auto;
+    background: linear-gradient(
+      315deg,
+      rgb(135, 159, 236) 3%,
+      rgba(60, 132, 206, 1) 38%,
+      lightblue 68%,
+      rgb(83, 83, 231)
+    );
+    animation: gradient 14s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+  }
+  
+  .hero_text_container {
+    padding: 2rem;
+    padding-top: 5rem;
+    width: 45%;
+  }
+  
+  .hero_header {
+    font-size: 2.4rem;
+    color: rgb(18, 18, 122);
+  }
+  
+  .hero_desc {
+    font-size: 1.4rem;
+    padding: 2rem 0;
+    font-weight: 400;
+  }
+  
+  .hero_img_container {
+    padding: 1rem 0.7rem;
+  }
+  
+  .hero_btn {
+    min-width: 10rem;
+    text-align: left;
+    background-color: #0c0678;
+    color: #fff;
+    font: inherit;
+    padding: 1rem;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero_btn:hover {
+    background-color: rgb(83, 83, 231);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 17s linear reverse infinite;
+    opacity: 0.8;
+  }
+  
+  .wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 19s -1s reverse infinite;
+    opacity: 0.9;
+  }
+  
+  @keyframes wave {
+    2% {
+      transform: translateX(1);
+    }
+  
+    25% {
+      transform: translateX(-25%);
+    }
+  
+    50% {
+      transform: translateX(-50%);
+    }
+  
+    75% {
+      transform: translateX(-25%);
+    }
+  
+    100% {
+      transform: translateX(1);
+    }
+  }
+  
+  #hero_img {
+    width: 125%;
+  }
+  
+  .hero_text_type {
+    width: 22ch;
+    animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2.4rem;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

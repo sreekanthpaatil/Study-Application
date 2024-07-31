@@ -1,0 +1,43 @@
+.carousel_section {
+    max-height: calc(100vh - 4rem);
+    background-color: #edf6f6;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .carousel_header {
+    font-size: 2.4rem;
+    color: rgb(18, 18, 122);
+  }
+  
+  .carousel_card {
+    padding: 0.7rem 2rem;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .carousel_img_container {
+    padding: 3rem;
+  }
+  
+  .carousel_card_img {
+    width: 65%;
+    display: inline-block;
+  }
+  
+  .carousel_card_content {
+    padding: 2rem;
+    text-align: left;
+    min-width: 50vw;
+  }
+  
+  .carousel_card_title {
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #0087ca;
+  }
+  
+  .carousel_card_desc {
+    line-height: 1.4rem;
+  }

@@ -1,0 +1,124 @@
+.nav_landing {
+    background-color: #c7e1f5;
+    color: #0c0678;
+    position: sticky;
+    font-weight: 600;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.8rem;
+    -webkit-box-shadow: 0px 5px 20px -8px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 5px 20px -8px rgba(0, 0, 0, 1);
+    box-shadow: 0px 5px 20px -8px rgba(0, 0, 0, 1);
+  }
+  
+  #logo {
+    position: absolute;
+    left: 32px;
+    top: -26px;
+    width: 153px;
+    height: 113px;
+  }
+  
+  .logo_container {
+    width: 10%;
+  }
+  
+  .list_container {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .landing_nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .nav_link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0c0678;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  .nav_link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #0c0678;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .nav_link:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .landing_active:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    background: #0c0678;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 100%;
+  }
+  
+  .landing_link {
+    padding: 0 1.5rem;
+  }
+  
+  .login_link {
+    font-size: 1.3rem;
+  }
+  
+  .login_link:hover {
+    color: #0087ca;
+  }
+  
+  .login_link:after {
+    background: #0087ca;
+  }
+  
+  .authenticate {
+    padding: 0.7rem 2rem;
+    background-color: #0087ca;
+    border-radius: 25px;
+    border: none;
+    font: inherit;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .authenticate_link {
+    text-decoration: none;
+    font: inherit;
+    font-size: 1.2rem;
+  }
+  
+  .authenticate:hover {
+    background-color: #0c0678;
+    cursor: pointer;
+  }
+  
+  .landing_active_authenticate {
+    background: #0c0678;
+  }

@@ -1,0 +1,17 @@
+.about_section {
+    min-height: calc(100vh - 4rem);
+    background-color: #edf6f6;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .about_header {
+    font-size: 2.4rem;
+    color: rgb(18, 18, 122);
+  }
+  
+  .about_desc {
+    padding: 3rem 6rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
