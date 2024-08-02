@@ -1,0 +1,145 @@
+.create_post_container {
+    margin-top: 6rem;
+    color: white;
+   
+  }
+  
+  .create_post_header {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .create_post_form {
+    width: 60%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #2d2747;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  .create_form_label {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create_form_label input[type="text"],
+  .create_form_label textarea,
+  .create_form_label select,
+  .create_form_label input[type="file"] {
+    border: 3px solid black;
+    transition: border 0.3s ease;
+    outline: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    font: inherit;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+  
+  .create_form_label textarea {
+    min-height: 70vh;
+    transition: border 0.3s ease;
+  }
+  
+  .create_form_label select {
+    padding: 0.7rem 1rem;
+    display: block;
+  }
+  
+  .create_form_label input[type="file"] {
+    outline: 5px dashed white;
+    
+  }
+  
+  .create_form_label input[type="text"]:focus,
+  .create_form_label textarea:focus {
+    border: 3px solid white;
+  }
+  
+  .select_options {
+    margin: 0.5rem 0;
+  }
+  
+  .subject_span {
+    background-color:#2d2747;
+    border: 1px solid white;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.8rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cat {
+    background-color: #a29fde;
+  }
+  
+  .subject_span:hover {
+    background-color: white;
+    color: #2d2747;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: rgb(33, 145, 33);
+    color: #2d2747;
+  }
+  
+  .input_add_container input {
+    width: 90%;
+  }
+  
+  .input_add_container button {
+    padding: 0.7rem 1rem;
+    background-color: #016abc;
+    font: inherit;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    margin: auto 0.3rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input_add_container button:hover {
+    background-color: rgb(178, 189, 235) ;
+    cursor: pointer;
+  }
+  
+  .form_btns_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+  }
+  
+  .form_submit_btn {
+    padding: 0.7rem 1rem;
+    background-color: #016abc;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font: inherit;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .form_submit_btn:hover {
+    background-color: rgb(178, 189, 235);
+    cursor: pointer;
+  }
+  
+  .error_message {
+    color: #f00;
+    text-align: left;
+    font-size: 0.9rem;
+  }
