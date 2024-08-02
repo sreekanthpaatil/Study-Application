@@ -1,0 +1,97 @@
+.profile_container_section {
+    position: absolute;
+    flex: 1 1 auto;
+    margin: 1.2rem;
+    margin: 3rem 1rem 2rem;
+    padding: 2rem;
+    background-color: #3f3951;
+    border-radius: 15px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    top: 9%;
+    left: 16%;
+  }
+  
+  .profile_main_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 4rem;
+  }
+  
+  .vertical_line {
+    width: 1px;
+    margin-top: 30px;
+    background-color: #fff;
+  }
+  
+  .profile_actions {
+    padding-top: 30px;
+  }
+  
+  .redirect_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .redirect_slot_booking_button {
+    min-width: 40%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font: inherit;
+    margin: 1rem;
+    color: #fff;
+    background-color: #1a1c27;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .redirect_slot_booking_button:hover {
+    cursor: pointer;
+    background-color: #0087ca;
+  }
+  
+  .redirect_post_button {
+    min-width: 40%;
+    padding: 0.7rem;
+    border: none;
+    font: inherit;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    margin: 1rem;
+    color: #fff;
+    background-color: #1a1c27;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .redirect_post_button:hover {
+    cursor: pointer;
+    background-color: #0087ca;
+  }
+  
+  .redirect_link_slot {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .no_post {
+    width: 70%;
+    height: auto;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    margin-left: 15%;
+  }
+  
+  .horizontal_line {
+    width: 90%;
+    margin: 4rem auto;
+    height: 1px;
+    background-color: #fff;
+  }

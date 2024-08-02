@@ -1,0 +1,82 @@
+.user_text {
+    padding: 0 1rem;
+    text-align: left;
+  }
+  
+  .user_name {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+  
+  .heading {
+    font-size: 15px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: #f6eeee;
+  }
+  .user_email {
+    color: grey;
+    position: relative;
+    top: -10px;
+  }
+  .user_bio {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .card_container {
+    background-color: #292435;
+    border-radius: 15px;
+    box-shadow: 0px 15px 30px -7px rgba(0, 0, 0, 0.75);
+    color: #f6eeee;
+    padding-top: 30px;
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+  }
+  
+  .heading {
+    font-size: 1rem;
+  }
+  
+  .skills_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .skills {
+    color: #f6eeee;
+    background-color: #1a1c27;
+    width: 50%;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: large;
+    text-transform: uppercase;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .vertical_line {
+    width: 1px;
+    margin-top: 30px;
+    background-color: #fff;
+  }
+  
+  .courses {
+    width: 180px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .course_list {
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 7px 7px 0;
+    padding: 8px;
+    color: #f6eeee;
+  }

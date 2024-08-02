@@ -1,0 +1,105 @@
+.new-post-modal {
+    position: fixed;
+    top: 20%;
+    left: 21.7%;
+    width: 55vw;
+    height: 75vh;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50px;
+    transform: none;
+    -webkit-transform: translateY(0);
+    animation: slide-in 0.4s ease-in-out forwards;
+  }
+  @keyframes slide-in {
+    from {
+      -webkit-transform: translateY(-100vh);
+      opacity: 0;
+    }
+    to {
+      -webkit-transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .create-post {
+    position: relative;
+    top: -40px;
+    font-size: 30px;
+  }
+  
+  .content-type-buttons {
+    position: relative;
+    top: -20px;
+    display: flex;
+  
+    margin-bottom: 20px;
+  }
+  
+  .content-type-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eee;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .content-type-buttons button:hover {
+    background-color: #ddd;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eee;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .buttons button:hover {
+    background-color: 343950;
+  }
+  
+  textarea,
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .text-content {
+    height: 150px;
+  }
+  
+  .link-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .link-url,
+  .link-description {
+    margin-bottom: 5px;
+  }
+  
+  /* Add any additional styles for specific areas as needed */
