@@ -1,0 +1,10 @@
+.rightbar {
+    position: fixed;
+    height: calc(100vh - 70px);
+    background-color: #352f44;
+    top: 70px;
+    right: 0;
+    width: 20vw;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
