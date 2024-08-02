@@ -1,0 +1,30 @@
+.community_page {
+    width: 80vw;
+    margin: 8rem auto 0;
+    background-color: #00224d;
+    color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .community_details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .community_title {
+    text-align: center;
+  }
+  
+  .community_desc {
+    font-size: 0.8rem;
+  }
+  
+  .community_admin {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
