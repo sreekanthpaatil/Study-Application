@@ -1,0 +1,42 @@
+.feed_posts_container {
+    margin-top: 3rem;
+  }
+  
+  .add_post_btn {
+    position: fixed;
+    bottom: 5vh;
+    right: 25vw;
+    z-index: 999;
+    background-color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .add_btn_link {
+    text-decoration: none;
+    color: #83b1d7;
+  }
+  
+  .add_post_btn:hover::after {
+    content: 'Create a Post';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #352f44;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  
+  .add_post_btn:hover {
+    background-color: #83b1d7;
+  }
+  
+  .add_post_btn:hover .add_btn_link {
+    color: #fff;
+  }

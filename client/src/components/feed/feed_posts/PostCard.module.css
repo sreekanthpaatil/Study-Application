@@ -1,0 +1,126 @@
+.post_card {
+    margin: 1.5rem 2.3rem;
+    background: linear-gradient(to right, #fff, #fff),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .post_header {
+    padding-bottom: 0.8rem;
+  }
+  
+  .post_title {
+    -webkit-text-fill-color: #fff;
+    font-size: 1.4rem;
+  }
+  
+  .post_tags {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .post_topics {
+    margin-right: 10px;
+  }
+  
+  .post_public {
+    -webkit-text-fill-color: #a79ebe;
+    padding: 1rem 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+  
+  .author_name {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .author_name:hover {
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .post_content {
+    -webkit-text-fill-color: #fff;
+  
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .post_ratings {
+    padding: 0.4rem 0.3rem;
+  }
+  
+  .ratings_section {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .post_stats {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    cursor: pointer;
+  }
+  
+  /* .btn_show_more {
+    background: #37343f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+    border: 2px solid #33bbc5;
+    border-radius: 25px;
+    padding: 0.3rem 0.5rem;
+  } */
+  
+  .post_content_less {
+    max-height: 20vh !important;
+    overflow-y: hidden !important;
+  }
+  
+  .post_content_more {
+    max-height: 100% !important;
+  }
+  
+  .background {
+    width: 100%;
+    height: 1px;
+    position: relative;
+  }
+  
+  .background:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    /* left: 100%; */
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(transparent, #352f44);
+    pointer-events: none;
+  }
+  
+  .formatted_text {
+    white-space: pre-wrap;
+  }
+  
+  @supports (-webkit-mask-image: linear-gradient(#352f44, #37343f)) or
+    (mask-image: linear-gradient(#352f44, #37343f)) {
+    .post_content_less::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      background: linear-gradient(to top, rgba(255, 255, 255, 0), #37343f 95%);
+      -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+      mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    }
+  }
