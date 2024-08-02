@@ -1,0 +1,110 @@
+.create_post_container {
+    margin-top: 6rem;
+    color: white;
+  }
+  
+  .create_post_header {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .create_post_form {
+    width: 60%;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #2d2747;
+    border-radius: 20px;
+  }
+  
+  .create_form_label {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create_form_label input[type="text"],
+  .create_form_label textarea,
+  .create_form_label select,
+  .create_form_label input[type="file"] {
+    border: 3px solid #83b1d7;
+    transition: border 0.3s ease;
+    outline: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    font: inherit;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+  
+  .create_form_label textarea {
+    min-height: 70vh;
+  }
+  
+  .create_form_label select {
+    padding: 0.7rem 1rem;
+    display: block;
+  }
+  
+  .create_form_label input[type="file"] {
+    outline: 5px dashed #0c0678;
+  }
+  
+  .create_form_label input[type="text"]:focus,
+  .create_form_label textarea:focus {
+    border: 3px solid #0c0678;
+  }
+  
+  .form_btns_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+  }
+  
+  .form_submit_btn {
+    padding: 0.7rem 1rem;
+    background-color: #016abc;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    font: inherit;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .form_submit_btn:hover {
+    background-color:rgb(178, 189, 235);
+    cursor: pointer;
+  }
+  
+  .error_message {
+    color: #f00;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  
+  .admin_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .admin_box {
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #016abc;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .admin_box:hover {
+    background-color:rgb(187, 199, 246);
+    color: #fff;
+  }
