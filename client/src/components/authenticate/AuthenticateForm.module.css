@@ -1,0 +1,114 @@
+.authenticate_inputs {
+    padding: 1.5rem;
+  }
+  
+  .authenticate_input_container {
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .authenticate_label {
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #0c0678;
+    display: block;
+  }
+  
+  .authenticate_radio {
+    display: flex;
+  }
+  
+  .radio_label {
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    color: #0c0678;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  
+  .authenticate_radio_input {
+    display: inline;
+    width: 100%;
+    border: none;
+  }
+  
+  .authenticate_radio_input:focus,
+  .authenticate_radio_input:active,
+  .authenticate_radio_input:blur {
+    border: none;
+  }
+  
+  .radio_input_label {
+    display: inline;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+  }
+  
+  .authenticate_input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    width: 100%;
+    display: block;
+  }
+  
+  .authentication_errors {
+    color: #ff0000;
+    text-align: left;
+    padding-top: 0.4rem;
+  }
+  
+  .forgot_pass {
+    color: #0c0678;
+    font-size: 0.8rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .forgot_pass:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .login_message_para {
+    margin: 2rem 0 1rem;
+    color: #0c0678;
+    font-size: 1.3rem;
+  }
+  
+  .authenticate_btn {
+    padding: 0.6rem 1rem;
+    margin: 0.5rem 1rem;
+    background-color: #83b1d7;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1.3rem;
+    min-width: 25%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px #999;
+  }
+  
+  .authenticate_btn:hover {
+    background-color: #0c0678;
+    cursor: pointer;
+  }
+  
+  .authenticate_btn:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+  
+  .home_link_btn {
+    background-color: #016abc;
+  }
+  
+  .home_link_text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+  }
