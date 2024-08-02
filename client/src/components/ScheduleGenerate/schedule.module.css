@@ -1,0 +1,122 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: inherit;
+    margin-top: 3rem;
+  }
+  .container {
+    width: 90%;
+    margin: 3rem auto;
+    margin-top: 3rem;
+    height: 100%;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal {
+    margin: auto;
+    background: #c7e1f5;
+    height: fit-content;
+    padding: 30px;
+    width: 90%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .borderContainer {
+    border: 2px dashed rgba(0, 108, 103, 0.241);
+    padding: 30px;
+  }
+  .heading {
+    font-size: 2rem;
+    font-weight: 550;
+    color: #000;
+    margin: 1rem;
+    text-align: center;
+  }
+  .inputBox {
+    outline: none;
+    border: 2px solid rgba(0, 108, 103, 0.241);
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    width: 100%;
+    margin: 0px;
+  }
+  .noContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .schedule_text {
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: #000;
+    margin: 1rem 0.5rem;
+  }
+  
+  .scheduleContainer {
+    margin-top: 2rem;
+    border-top: 2px dashed rgba(0, 108, 103, 0.241);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .sessions {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .session {
+    background-color: #f8deb1;
+    padding: 1.5rem;
+    border-radius: 12px;
+    min-width: 300px;
+  }
+  .closeContainer {
+    position: absolute;
+    top: 44px;
+    right: 54px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .type {
+    font: inherit;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+  
+  .schedule_btn {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    display: block;
+    text-align: center;
+    background-color: #0087ca;
+    border-radius: 10px;
+    border: none;
+    font: inherit;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .schedule_btn:hover {
+    background-color: #0c5b83;
+    cursor: pointer;
+  }
+  
+  .generate_btn:hover {
+    background-color: #0c0678;
+  }
+  
+  .selected {
+    background-color: #0c0678;
+  }

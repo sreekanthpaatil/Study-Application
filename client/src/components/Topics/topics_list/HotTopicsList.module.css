@@ -1,0 +1,11 @@
+.p_special {
+    color: white;
+    font-size: 1.4rem;
+  }
+  
+  .error_box {
+    position: relative;
+    width: 70%;
+    margin: 4rem auto;
+    text-align: center;
+  }

@@ -1,0 +1,67 @@
+.topic_feed {
+    position: relative;
+    flex: 1 1 auto;
+    margin: 1.2rem;
+    padding: 0.8rem;
+    max-width: calc(100% - 40vw);
+    padding: 1rem;
+    height: 100%;
+    background-color: #352f44;
+    border-radius: 15px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .topic_content {
+    height: 100%;
+  }
+  
+  .topics_nav {
+    position: sticky;
+    top: 0;
+    height: 10vh;
+  }
+  
+  .topics_control {
+    background: linear-gradient(to right, #fff, #fff),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .topics_tabs_list {
+    padding: 2rem 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .tab {
+    cursor: pointer;
+  }
+  
+  .selected {
+    -webkit-text-fill-color: #33bbc5;
+    position: relative;
+  }
+  
+  .selected::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  }

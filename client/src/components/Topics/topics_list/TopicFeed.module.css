@@ -1,0 +1,21 @@
+.topic_feed_container {
+    margin: 1rem 2.5rem;
+  }
+  
+  .topics_container {
+    max-height: 100%;
+  }
+  
+  .topics_list {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%; */
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .topic_list_item {
+    flex: 0 1 calc(33.33% - 10px);
+  }
