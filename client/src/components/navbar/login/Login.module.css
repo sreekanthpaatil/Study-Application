@@ -1,0 +1,39 @@
+li {
+    list-style-type: none;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .modal_actions {
+  }
+  
+  .modal_action {
+    padding: 0.5rem 0.2rem;
+    position: relative;
+  }
+  
+  .modal_action_link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .modal_action::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  
+  .modal_action:hover {
+    cursor: pointer;
+  }
+  
+  .modal_action:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

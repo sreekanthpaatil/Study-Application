@@ -1,0 +1,25 @@
+.header {
+    font-family: inherit;
+    height: 70px;
+    background-color: #f6f4eb;
+    -webkit-box-shadow: 0px 5px 41px 0px rgba(18, 18, 18, 1);
+    -moz-box-shadow: 0px 5px 41px 0px rgba(18, 18, 18, 1);
+    box-shadow: 0px 5px 41px 0px rgba(18, 18, 18, 1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+  }
+  
+  .actions {
+    margin: 0 1.8rem;
+  }
+  
+  .logo {
+    height: 80px;
+    aspect-ratio: 16/9;
+    /* width: 200px; */
+  }
