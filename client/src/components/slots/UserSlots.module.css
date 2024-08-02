@@ -1,0 +1,70 @@
+.user_slots_page {
+    margin: 8rem auto;
+    background-color: #83b1d7;
+    min-width: 70vw;
+    max-width: 80vw;
+    border-radius: 2rem;
+  }
+  
+  .slots_container {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .slots_header_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slots_header {
+    font-size: 2rem;
+  }
+  
+  .slots_list {
+    background-color: #366891;
+    border-radius: 1.5rem;
+    padding: 1.5rem 2rem;
+  }
+  
+  .slot_list_item {
+    margin: 1.5rem 1rem;
+    padding: 1rem 1.5rem;
+    background-color: #83b1d7;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  
+  .slot_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .slot_topic_container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .slot_topic {
+    font-size: 1.3rem;
+  }
+  
+  .slot_teacher {
+    font-size: 1.5rem;
+  }
+  
+  .loading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .teacher {
+    background-color: salmon;
+  }
